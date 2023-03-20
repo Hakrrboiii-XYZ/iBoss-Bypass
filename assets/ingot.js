@@ -388,6 +388,17 @@ body[dev] .item-version, body[dev] .item-id {
 </div>
 
 <div class="items-main">
+<div class="items" id="items">
+<div class="patched">Error: This may have been patched</div>
+<div class="wrongpage">You are not on the correct page.<br>To use Ingot for iBoss click the button below to redirect click the \"Click me!\" button.  Once on the blank page, click the bookmarklet again.<div class="item-left-buttons" style="justify-content: center; margin: 20px;">
+<div class="item-left-button" id="redirectbutton">Redirect</div>
+</div></div>
+</div>
+</div>
+
+</body>
+</html>`
+
 const devtoggle = document.querySelector("#toggle");
 devtoggle.addEventListener("click", ev => {
     toggle(ev.currentTarget);
